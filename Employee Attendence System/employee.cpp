@@ -40,5 +40,18 @@ void Company::addEmployee() {
 }
 
 void Company::displayEmployees() {
+	int id;
+	cout << "Enter the ID of the employee : ";
+	cin >> id;
 
+	bool found = false;
+	for (int i = 0;i < totalEmp;i++) {
+		if (id == empHave[i].id) {
+			found = true;
+			cout << "Name : " << empHave[i].fname << " " << empHave[i].lname << endl;
+		}
+	}
+	if (!found) {
+		cout << "Employee Not Found" << endl;
+	}
 }
