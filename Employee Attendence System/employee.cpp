@@ -12,7 +12,8 @@ Company::Company()
 	totalEmp = 4;
 }
 
-void Company::displayMenu() {
+void Company::displayMenu()
+{
 	cout << "--------Welcome to Office Register--------" << endl;
 	cout << "(1) Add Employee." << endl;
 	cout << "(2) Display Employees Details with ID." << endl;
