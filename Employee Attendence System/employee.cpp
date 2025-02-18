@@ -22,7 +22,8 @@ void Company::displayMenu()
 	cout << "Enter your choice : " << endl;
 }
 
-void Company::addEmployee() {
+void Company::addEmployee() 
+{
 	int n;
 
 	cout << "Enter the number of employees you want to add : ";
