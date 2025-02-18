@@ -5,9 +5,11 @@
 
 using namespace std;
 
-class Company {
+class Company
+{
 public:
-	struct Employee {
+	struct Employee
+	{
 		int id;
 		string fname;
 		string lname;
