@@ -3,7 +3,8 @@
 
 using namespace std;
 
-Company::Company() {
+Company::Company()
+{
 	empHave[0] = {45, "Virender", "Singh"};
 	empHave[1] = {20, "Atul", "Rana"};
 	empHave[2] = {26, "Nikhil", "Rana"};
