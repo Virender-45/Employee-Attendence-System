@@ -8,8 +8,7 @@ using namespace std;
 class Company
 {
 public:
-	struct Employee
-	{
+	struct Employee	{
 		int id;
 		string fname;
 		string lname;
